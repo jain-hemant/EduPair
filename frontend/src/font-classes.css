@@ -1,0 +1,16 @@
+.font-khand {
+  font-family: 'Khand', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* 
+Font sizes for different screens 
+*/
+
+.font-6xlDescription {
+  font-size: 6rem;
+}

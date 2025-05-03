@@ -1,0 +1,21 @@
+### Register User
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "honeyjain",
+    "email": "honey@example.com",
+    "password": "securePass123",
+    "name": "Honey Jain",
+    "bio": "Just a test user.",
+    "avatar": "https://example.com/avatar.png",
+    "role": "user",
+    "skillsToTeach": [
+        "661b37a543c3d9a1b8f1e987",
+        "661b37a543c3d9a1b8f1e988"
+    ],
+    "skillsToLearn": [
+        "661b37a543c3d9a1b8f1e989",
+        "661b37a543c3d9a1b8f1e990"
+    ]
+}

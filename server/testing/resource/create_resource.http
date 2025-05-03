@@ -1,0 +1,19 @@
+### Create Resource
+POST http://localhost:3000/api/resources
+Content-Type: application/json
+
+{
+    "title": "Introduction to Node.js",
+    "skill": "6815d95bb36c1bc55f01de1d",
+    "creator": "6815d61db90a52c83e9f84d5",
+    "learners": [
+        "661b37a543c3d9a1b8f1e989",
+        "661b37a543c3d9a1b8f1e990"
+    ],
+    "description": "A beginner-friendly guide to Node.js, including its fundamentals and setup.",
+    "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine...",
+    "contentType": "video",
+    "resourceUrl": "https://www.youtube.com/watch?v=svrLVXKot_A",
+    "creditCost": 5,
+    "difficulty": "beginner"
+}

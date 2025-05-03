@@ -1,0 +1,11 @@
+PATCH http://localhost:3000/api/resources/{resourceId}
+Content-Type: application/json
+
+{
+    "title": "Updated Title",
+    "description": "Updated description",
+    "content": "Updated content here...",
+    "contentType": "pdf",
+    "creditCost": 10,
+    "difficulty": "intermediate"
+}

@@ -1,0 +1,15 @@
+*.json
+/frontend/build
+/frontend/public
+
+# Ignore specific file extensions
+*.log
+*.txt
+*.md
+*.config.js
+*.yml
+*.yaml
+.prettierrc
+*.css
+*.html
+*.scss
